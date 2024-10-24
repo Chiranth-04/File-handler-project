@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadExcelFile {
     public static void main(String[] args) throws IOException {
         // Path to the Excel file
-        String path = "G:\\Book1.xlsx"; 
+        String path = "Your excel file path"; 
 
         
         FileInputStream file = new FileInputStream(path);  
