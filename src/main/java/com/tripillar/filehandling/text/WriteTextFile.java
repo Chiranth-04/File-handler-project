@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class WriteTextFile {
     public static void main(String[] args) {
-        String filePath = "G:\\output.txt"; 
+        String filePath = "Your .txt file path"; 
         String[] content = {
             "This is the first line.",
             "This is the second line.",
