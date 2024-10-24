@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadTextFile {
     public static void main(String[] args) {
-        String filePath = "G:\\example.txt";  
+        String filePath = "your .txt file path";  
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
